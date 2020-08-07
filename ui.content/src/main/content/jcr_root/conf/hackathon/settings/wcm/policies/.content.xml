@@ -533,7 +533,7 @@
                 </header>
                 <footer jcr:primaryType="nt:unstructured">
                     <policy_1596802899148
-                        jcr:lastModified="{Date}2020-08-07T17:52:30.190+05:30"
+                        jcr:lastModified="{Date}2020-08-07T19:36:43.833+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Hackathon Footer Policy"
