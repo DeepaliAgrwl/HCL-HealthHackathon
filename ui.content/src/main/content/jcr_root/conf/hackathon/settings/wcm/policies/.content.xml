@@ -58,6 +58,15 @@
                             </assetToComponentMapping>
                         </cq:authoring>
                     </policy_xfm>
+                    <policy_2925887158302365
+                        jcr:lastModified="{Date}2020-08-07T11:42:12.163+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Hackathon Content Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:Hackathon.Content,group:Hackathon.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2925887158302365>
                 </responsivegrid>
             </components>
         </foundation>
@@ -281,7 +290,7 @@
                         jcr:title="Hackathon Site Experience Fragment - Footer"
                         sling:resourceType="wcm/core/components/policy/policy">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_footer>
+                    </policy_footer>
                 </experiencefragment>
             </content>
             <structure jcr:primaryType="nt:unstructured">
@@ -303,6 +312,28 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_content_page>
                 </page>
+                <header jcr:primaryType="nt:unstructured">
+                    <policy_1596780743010
+                        jcr:lastModified="{Date}2020-08-07T11:44:21.390+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Hackathon Header Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/hackathon/components/content/button,/apps/hackathon/components/content/container,/apps/hackathon/components/content/image,/apps/hackathon/components/content/languagenavigation,/apps/hackathon/components/content/list,/apps/hackathon/components/content/text,/apps/hackathon/components/content/title,group:Hackathon.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1596780743010>
+                </header>
+                <footer jcr:primaryType="nt:unstructured">
+                    <policy_1596780882721
+                        jcr:lastModified="{Date}2020-08-07T11:45:29.243+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Hackathon Footer Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/hackathon/components/content/button,/apps/hackathon/components/content/container,/apps/hackathon/components/content/image,/apps/hackathon/components/content/list,/apps/hackathon/components/content/sharing,/apps/hackathon/components/content/text,/apps/hackathon/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1596780882721>
+                </footer>
             </structure>
         </components>
     </hackathon>

@@ -56,7 +56,7 @@
                     <properties>
                         <cloudManagerTarget>none</cloudManagerTarget>>
                     </properties>
-                    
+
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
