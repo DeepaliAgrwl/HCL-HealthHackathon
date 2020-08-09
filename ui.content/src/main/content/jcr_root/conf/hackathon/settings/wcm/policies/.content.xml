@@ -590,26 +590,39 @@
                 </page>
                 <header jcr:primaryType="nt:unstructured">
                     <policy_1596802376964
-                        jcr:lastModified="{Date}2020-08-07T17:49:50.564+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Hackathon Footer Policy"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/hackathon/components/content/image,/apps/hackathon/components/content/text]">
+                            jcr:lastModified="{Date}2020-08-07T17:49:50.564+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Hackathon Footer Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/apps/hackathon/components/content/image,/apps/hackathon/components/content/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1596802376964>
                 </header>
                 <footer jcr:primaryType="nt:unstructured">
                     <policy_1596802899148
-                        jcr:lastModified="{Date}2020-08-07T20:06:23.769+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Hackathon Footer Policy"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/hackathon/components/content/image,/apps/hackathon/components/content/text]">
+                            jcr:lastModified="{Date}2020-08-07T20:06:23.769+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Hackathon Footer Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/apps/hackathon/components/content/image,/apps/hackathon/components/content/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1596802899148>
                 </footer>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1596799855746
+                            jcr:lastModified="{Date}2020-08-07T17:01:27.067+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Search Policy"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            resultsSize="10"
+                            searchRoot="/content/hackathon"
+                            searchTermMinimumLength="3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1596799855746>
+                </search>
             </structure>
         </components>
     </hackathon>
