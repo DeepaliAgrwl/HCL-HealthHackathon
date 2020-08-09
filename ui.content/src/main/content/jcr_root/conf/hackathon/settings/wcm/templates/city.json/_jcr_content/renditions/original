@@ -1,0 +1,22 @@
+{
+	"cityList":
+	[
+		{
+			"city_name": "Noida",
+			"city_id": "ND"
+		},
+		{
+			"city_name": "Banglore",
+			"city_id": "BLR"
+		}
+	],
+	"keywords":[
+		{
+			"resturant":["Hotel", "resturant", "dining"]
+		},
+		{
+			"shopping-malls":["shopping-mall", "shop", "mall", "shopping"]
+		}
+	
+	]
+}

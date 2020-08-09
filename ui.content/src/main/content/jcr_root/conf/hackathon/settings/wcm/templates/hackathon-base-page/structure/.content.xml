@@ -1,61 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+          jcr:primaryType="cq:Page">
     <jcr:content
-        cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2020-08-07T18:14:02.998+05:30"
-        cq:lastModifiedBy="admin"
-        cq:template="/conf/hackathon/settings/wcm/templates/hackathon-base-page"
-        jcr:primaryType="cq:PageContent"
-        sling:resourceType="hackathon/components/structure/page">
+            cq:deviceGroups="[/etc/mobile/groups/responsive]"
+            cq:lastModified="{Date}2020-08-09T14:16:42.234+05:30"
+            cq:lastModifiedBy="admin"
+            cq:template="/conf/hackathon/settings/wcm/templates/hackathon-base-page"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="hackathon/components/structure/page">
         <root
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
             <header
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="hackathon/components/structure/header"/>
-            <responsivegrid
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true"/>
-            <footer
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="hackathon/components/structure/footer">
-                <text
-                    jcr:created="{Date}2020-08-07T17:52:46.345+05:30"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-08-07T18:14:02.992+05:30"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="hackathon/components/content/text"
-                    text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>&lt;i>Copyright © 2020 by HCL Hackathon&lt;/i>&lt;/b>&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>&lt;b>&lt;i>Website owned &amp;amp; maintained by:HCL Hackathon Team&lt;/i>&lt;/b>&lt;/p>&#xa;"
-                    textIsRich="true">
+                    sling:resourceType="hackathon/components/structure/header">
+                <image
+                        cq:styleIds="[1596961851892]"
+                        jcr:created="{Date}2020-08-09T13:05:24.045+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-08-09T13:06:59.967+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="hackathon/components/content/image"
+                        altValueFromDAM="true"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/hackathon/images/logo.png"
+                        isDecorative="false"
+                        titleValueFromDAM="true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="4"
-                            width="6"/>
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="2"/>
                     </cq:responsive>
-                </text>
-                <image
-                    jcr:created="{Date}2020-08-07T17:54:16.874+05:30"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-08-07T17:54:16.874+05:30"
-                    jcr:lastModifiedBy="admin"
+                </image>
+                <button
+                        cq:styleIds="[1596959978077]"
+                        jcr:created="{Date}2020-08-09T13:05:36.050+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-08-09T13:14:41.233+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Guidelines"
+                        sling:resourceType="hackathon/components/content/button"
+                        link="/content/hackathon/us/en/guidelines">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="4"
+                                width="2"/>
+                    </cq:responsive>
+                </button>
+                <button_2104934400
+                        cq:styleIds="[1596959978077]"
+                        jcr:created="{Date}2020-08-09T13:05:42.492+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-08-09T14:16:28.118+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="People Infected"
+                        sling:resourceType="hackathon/components/content/button"
+                        link="/content/hackathon/us/en/guidelines">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="2"/>
+                    </cq:responsive>
+                </button_2104934400>
+                <button_593944537
+                        cq:styleIds="[1596959978077]"
+                        jcr:created="{Date}2020-08-09T13:05:47.831+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-08-09T14:16:42.219+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="People Recovered"
+                        sling:resourceType="hackathon/components/content/button"
+                        link="/content/hackathon/us/en/guidelines">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="2"/>
+                    </cq:responsive>
+                </button_593944537>
+            </header>
+            <responsivegrid
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="hackathon/components/content/image"/>
-            </footer>
+                    sling:resourceType="wcm/foundation/components/responsivegrid"
+                    editable="{Boolean}true"/>
+            <footer
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="hackathon/components/structure/footer"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
-                    jcr:primaryType="nt:unstructured"
-                    title="Smaller Screen"
-                    width="{Long}768"/>
+                        jcr:primaryType="nt:unstructured"
+                        title="Smaller Screen"
+                        width="{Long}768"/>
                 <tablet
-                    jcr:primaryType="nt:unstructured"
-                    title="Tablet"
-                    width="{Long}1200"/>
+                        jcr:primaryType="nt:unstructured"
+                        title="Tablet"
+                        width="{Long}1200"/>
             </breakpoints>
         </cq:responsive>
     </jcr:content>
