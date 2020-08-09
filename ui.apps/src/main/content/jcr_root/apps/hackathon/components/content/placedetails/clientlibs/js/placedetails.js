@@ -16,11 +16,14 @@ $(document).ready(function () {
             (rejected) => {
                 console.log(rejected);
             })
-        .then(data => {            
+        .then(data => { 
+               //avgRating = Math.round(ratingResponse[0].rating * 2) / 2;
+            //document.getElementById("rating" + data.rating * 2).checked = true;
             placeDetail = data["Restaurant"].filter(item => item.areaId == 1)[0];
             covidDetail = data['covid'].filter(item => item.areaId == 1)[0];
 
             document.getElementById('place-title').innerHTML = placeDetail.name;
+			document.getElementById("rating" + placeDetail.rating * 2).checked = true;
             document.getElementById('place-image').src= placeDetail.image;
             document.getElementById('place-desc').innerHTML = placeDetail.description;
             document.getElementById('place-rating').innerHTML = placeDetail.rating;

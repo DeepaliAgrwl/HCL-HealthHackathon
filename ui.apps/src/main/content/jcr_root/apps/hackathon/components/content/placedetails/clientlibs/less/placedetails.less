@@ -1,4 +1,45 @@
+/* Rating */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.rating-detail {
+ display: inline-block;
+ border: 0;
+ pointer-events: none;
+ 
+ /* Click + hover color */
+ input:checked ~ label, /* color current and previous stars on checked */
+  { color: #73B100; } /* color previous stars on hover */
+
+ /* Hover highlights */
+ input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
+ input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
+  /* highlight previous selected stars */ { color: #A6E72D; } 
+}
+.rating-detail > input {
+ display: none;
+}
+.rating-detail > label {
+ float: right;
+}
+.rating-detail > label:before {
+ display: inline-block;
+ font-size: 1.1rem;
+ padding: .3rem .2rem;
+ margin: 0;
+ cursor: pointer;
+ font-family: FontAwesome;
+ content: "\f005 "; /* full star */
+}
+.rating-detail > label:last-child:before {
+ content: "\f006 "; /* empty star outline */
+}
+.rating-detail .half:before {
+ content: "\f089 "; /* half star no outline */
+ position: absolute;
+ padding-right: 0;
+}
+
 .place-details-cmp{
+
     & > div{
         display: flex;
         img{
@@ -13,7 +54,14 @@
                 font-size: 12px;
             }
         }
-    }    
+    }
+    .product-image-rating{
+
+        display:flex;
+        flex-direction:column;
+
+    }
+
 }
 .bold{
     font-weight: 600;
