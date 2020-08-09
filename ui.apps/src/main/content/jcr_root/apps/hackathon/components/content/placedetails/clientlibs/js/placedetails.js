@@ -26,7 +26,6 @@ $(document).ready(function () {
 			document.getElementById("rating" + placeDetail.rating * 2).checked = true;
             document.getElementById('place-image').src= placeDetail.image;
             document.getElementById('place-desc').innerHTML = placeDetail.description;
-            document.getElementById('place-rating').innerHTML = placeDetail.rating;
             document.getElementById('covid-cases').innerHTML = covidDetail.covidcases;
             document.getElementById('covid-recovered').innerHTML = covidDetail.RecoveredCases;
             document.getElementById('covid-severity').innerHTML = covidDetail.covidseverity;
