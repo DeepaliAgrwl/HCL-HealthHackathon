@@ -37,7 +37,7 @@ $(document).ready(function () {
             var itemNumbers = $(this).find(itemClass).length;
             incno = (bodyWidth >= 768) ? 4 : 1;
             itemWidth = sampwidth / incno;
-            $(this).css({ 'transform': 'translateX(0px)', 'width': (itemWidth * itemNumbers) });
+            $(this).css({ 'transform': 'translateX(0px)', 'width': (itemWidth * itemNumbers),'transition':'all 0.25s ease 0s' });
             $(this).find(itemClass).each(function () {
                 $(this).outerWidth(itemWidth);
             });
