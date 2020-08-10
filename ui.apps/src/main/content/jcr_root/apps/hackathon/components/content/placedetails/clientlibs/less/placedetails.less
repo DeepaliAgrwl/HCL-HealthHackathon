@@ -1,0 +1,84 @@
+/* Rating */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+.rating-detail {
+ display: inline-block;
+ border: 0;
+ pointer-events: none;
+ 
+ /* Click + hover color */
+ input:checked ~ label /* color current and previous stars on checked */
+  { color: #2979be; } /* color previous stars on hover */
+
+ /* Hover highlights */
+ input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
+ input:checked ~ label:hover ~ label /* highlight previous selected stars for new rating */
+  /* highlight previous selected stars */ { color: #2979be; } 
+}
+.rating-detail > input {
+ display: none;
+}
+.rating-detail > label {
+ float: right;
+}
+.rating-detail > label:before {
+ display: inline-block;
+ font-size: 1.1rem;
+ padding: .3rem .2rem;
+ margin: 0;
+ cursor: pointer;
+ font-family: FontAwesome;
+ content: "\f005 "; /* full star */
+}
+.rating-detail > label:last-child:before {
+ content: "\f006 "; /* empty star outline */
+}
+.rating-detail .half:before {
+ content: "\f089 "; /* half star no outline */
+ position: absolute;
+ padding-right: 0;
+}
+
+.info{
+    font-size: 11px;
+    font-weight: 500;
+    color: #7d7d7d;
+}
+p{
+    font-size: 14px;
+}
+body{
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.place-details-cmp{
+    & > div{
+        display: flex;
+        .product-image-rating{          
+                width: 500px;
+                height: 500px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.6);
+                img{
+                    width: 100%;
+                    height: 100%;
+                }            
+        }
+        .place-info{
+            margin-left: 40px;
+            .timing{
+                font-size: 14px;
+                color: #074aad;
+                font-weight: 500;
+            }
+        }
+    }
+    .product-image-rating{
+
+        display:flex;
+        flex-direction:column;
+
+    }
+
+}
+.bold{
+    font-weight: 600;
+}

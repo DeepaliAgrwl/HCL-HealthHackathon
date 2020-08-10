@@ -1,0 +1,34 @@
+<div class = "searchWrapper">
+    <div>
+        <select class = "searchFilter" onChange="">
+            <option value = "category"> Search By Category </option>
+            <option value = "name"> Search By Name</option>
+        </select>
+    </div>
+    <section data-sly-use.search="com.adobe.cq.wcm.core.components.models.Search"
+             data-sly-use.component="com.adobe.cq.wcm.core.components.models.Component"
+             id="${component.id}"
+             class="cmp-search"
+             role="search"
+             data-cmp-is="search"
+             data-cmp-min-length="${search.searchTermMinimumLength}"
+             data-cmp-results-size="${search.resultsSize}">
+        <form class="cmp-search__form" data-cmp-hook-search="form"
+              method="get" action="${currentPage.path @ addSelectors=['searchresults'], extension='json', suffix = search.relativePath}"
+              autocomplete="off">
+            <div class="cmp-search__field">
+
+
+                <input class="cmp-search__input" id="searchString" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="${'Search' @ i18n}"
+                       role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false" onkeyup="onSearchString(event)"
+                       searchRedirectionUrl = "${properties.link @ extension = 'html'}" >
+                <i class="cmp-search__icon" data-cmp-hook-search="icon" onClick="searchPlaces()"></i>
+                <button class="cmp-search__clear" data-cmp-hook-search="clear">
+
+            </div>
+            <p class="search_errormsg" > No Result Found </p>
+        </form>
+        <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false"></div>
+        <sly data-sly-include="itemTemplate.html"/>
+    </section>
+</div>
