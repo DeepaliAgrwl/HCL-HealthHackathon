@@ -1,36 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="cq:Page">
+          jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-08-07T11:45:29.257+05:30"
-        cq:lastModifiedBy="admin"
-        cq:policy="hackathon/components/structure/page/policy_content_page"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="wcm/core/components/policies/mappings">
-        <root
-            cq:policy="wcm/foundation/components/responsivegrid/content-default"
+            cq:lastModified="{Date}2020-08-09T15:35:54.703+05:30"
+            cq:lastModifiedBy="admin"
+            cq:policy="hackathon/components/structure/page/policy_content_page"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/core/components/policies/mapping">
+            sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+                cq:policy="wcm/foundation/components/responsivegrid/content-default"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
             <experiencefragment-header
-                cq:policy="hackathon/components/content/experiencefragment/policy_header"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="hackathon/components/content/experiencefragment/policy_header"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
             <experiencefragment-footer
-                cq:policy="hackathon/components/content/experiencefragment/policy_footer"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="hackathon/components/content/experiencefragment/policy_footer"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
             <responsivegrid
-                cq:policy="wcm/foundation/components/responsivegrid/policy_2925887158302365"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="wcm/foundation/components/responsivegrid/policy_2925887158302365"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
+                <hackathon jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <structure jcr:primaryType="nt:unstructured">
+                            <search
+                                    cq:policy="hackathon/components/structure/search/policy_1596799855746"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </structure>
+                        <content jcr:primaryType="nt:unstructured">
+                            <image
+                                    cq:policy="hackathon/components/content/image/policy_3105294091107286"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <text
+                                    cq:policy="hackathon/components/content/text/policy_3107896687571693"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </content>
+                    </components>
+                </hackathon>
+            </responsivegrid>
             <header
-                cq:policy="hackathon/components/structure/header/policy_1596780743010"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="hackathon/components/structure/header/policy_1596780743010"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
+                <button
+                        cq:policy="hackathon/components/content/button/policy_3105190178954161"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                <image
+                        cq:policy="hackathon/components/content/image/policy_3105294091107286"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                <button_2104934400
+                        cq:policy="hackathon/components/content/button/policy_3105190178954161"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+                <button_593944537
+                        cq:policy="hackathon/components/content/button/policy_3105190178954161"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/core/components/policies/mapping"/>
+            </header>
             <footer
-                cq:policy="hackathon/components/structure/footer/policy_1596780882721"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/core/components/policies/mapping"/>
+                    cq:policy="hackathon/components/structure/footer/policy_1596780882721"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>
     </jcr:content>
 </jcr:root>
