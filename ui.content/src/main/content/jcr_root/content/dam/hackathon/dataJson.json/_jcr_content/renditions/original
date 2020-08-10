@@ -1,59 +1,25 @@
-{
- "resturant" :[
-	{
-    "name" : "Dominoz",
-    "rating" : "4", 
-    "description" : "we delivery fresh baked pizza with complete safety",
-    "image" : "https://d.zmtcdn.com/data/pictures/chains/8/16774318/a54deb9e4dbb79dd7c8091b30c642077_featured_v2.png", 
-    "city" : "Noida", 
-	"cityCode":"ND",
-    "area" : "Sector 15",
-	"placeId" : "100",
-    "areaId" : "1"
-    }, 
-    {
-    
-    "name" : "Karavali", 
-    "rating" : "5", 
-    "description" : "we delivery fresh baked pizza with complete safety",
-    "image" : "https://d.zmtcdn.com/data/pictures/chains/8/16774318/a54deb9e4dbb79dd7c8091b30c642077_featured_v2.png", 
-    "city" : "Banglore", 
-	"cityCode":"BLR",
-    "area" : "balendoor", 
-	"placeId" : "101",
-    "areaId" : "2"
-    }
+{"resturant":[
+	{"id":"16774318","name":"Dominoz","rating":"4","hours":"11am to 11pm","description":"we delivery fresh baked pizza with complete safety","image":"https://b.zmtcdn.com/data/pictures/4/384/e517226402b301c86bd1421187712e26.jpg?output-format=webp","city":"Noida","cityCode":"ND","area":"Sector 15","areaId":"1", "review_text": "The best latte I've ever had. It tasted a little sweet" , "category":"resturant"},
 
- 
+{"id":"16774319","name":"Paradise Biriyani","rating":"3","hours":"11am to 11pm","description":"we delivery the best biriyani with auroma and species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Bellandur","areaId":"2", "review_text": "The best latte I've ever had. It tasted a little sweet" , "category":"resturant"},
 
-    ],
-	"shopping-malls" :[{
-    
-		"name" : "pheonix mall", 
-		"rating" : "3", 
-		"image" : "url", 
-		"description" : "we follow all the guidelines issue by goverment of India",
-		"city" : "Banglore",
-		"cityCode":"BLR",
-		"area" : "marathali",
-		"placeId" : "102",
-		"areaId" : "3"
-		}, 
-		{		
-		"name" : "DLF Mall", 
-		"rating" : "2.5", 
-		"image" : "url", 
-		"description" : "Best rated mall in terms of safety from COVID",
-		"city" : "Noida",
-		"cityCode":"ND",
-		"area" : "sector 18",
-		"placeId" : "103",
-		 "areaId" : "4"
-		}
-	]
-}
+{"id":"16774320","name":"Meghana Food Grand","rating":"4","hours":"11am to 11pm","description":"Delivering the The food with rich auroma and taste","image":"https://www.paradisefoodcourt.in/images/logo1.png","city":"Banglore","cityCode":"BLR","area":"Marathalli","areaId":"3", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"},
 
- 
+{"id":"16774321","name":"Kritunga Restaurant","rating":"3","hours":"11am to 11pm","description":"we delivery the biriyani with Rich Taste and Great Auroma ad species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Whitefield","areaId":"5", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"},
 
- 
+{"id":"16774322","name":"Moritz restaurant","rating":"3","hours":"11am to 11pm","description":"The place where the food and restaurant quality is great.","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Whitefield","areaId":"2", "review_text": "The best Food I've ever had. It tasted a little sweet", "category":"resturant"},
 
+{"id":"16774323","name":"Bawarchii Biriyani","rating":"4","hours":"11am to 11pm","description":"we delivery the best biriyani with auroma and species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Marathalli","areaId":"2", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"}
+],
+
+"shopping-malls":[
+{"id":"16774324","name":"pheonix mall","rating":"3","hours":"11am to 10pm","image":"https://www.hcltech.com/sites/default/files/styles/large/public/images/guideline_based1.png","description":"we follow all the guidelines issue by goverment of India","city":"Banglore","cityCode":"BLR","area":"marathali","areaId":"3", "review_text": "Good Place to buy all the formal clothes", "category":"shopping-malls"},
+
+{"id":"16774330","name":"DLF Mall","rating":"3","hours":"11am to 10pm","image":"https://www.hcltech.com/sites/default/files/styles/large/public/images/guideline_based1.png","description":"Best rated mall in terms of safety from COVID","city":"Noida","cityCode":"ND","area":"sector 18","areaId":"4","review_text": "Quality of the goods is very high" , "category":"shopping-malls"}
+],
+
+"covid":[{"areaId":"1","covidcases":"100","covidseverity":"HIGH","RecoveredCases":"10", "modeifiedDate":"10 Aug, 2020"},
+	{"areaId":"2","covidcases":"10","covidseverity":"LOW","RecoveredCases":"6", "modeifiedDate":"6 Aug, 2020"},
+	{"areaId":"3","covidcases":"30","covidseverity":"MODERATE","RecoveredCases":"10" , "modeifiedDate":"8 Aug, 2020"},
+	{"areaId":"4","covidcases":"200","covidseverity":"HIGH","RecoveredCases":"20" ,"modeifiedDate":"9 Aug, 2020"}
+	]}

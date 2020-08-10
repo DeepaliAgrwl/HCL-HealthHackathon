@@ -15,7 +15,10 @@ $(document).ready(function () {
 	}	
 
     const placeDeatils = getUserCookie("placeDetails");
-    let placeDetailsJson = JSON.parse(placeDeatils);
+    let placeDetailsJson;
+        if(placeDeatils)
+        	placeDetailsJson = JSON.parse(placeDeatils);
+
 
       
     let placeDetail = {};
@@ -32,20 +35,21 @@ $(document).ready(function () {
             (rejected) => {
                 console.log(rejected);
             })
-        .then(data => {            
-            placeDetail = data[placeDetailsJson.category].filter(item => (item.areaId == placeDetailsJson.areaId && item.id == placeDetailsJson.id))[0];
-            covidDetail = data['covid'].filter(item =>item.areaId == placeDetailsJson.areaId)[0];
+        .then(data => {
+            if(placeDetailsJson) {
+                placeDetail = data[placeDetailsJson.category].filter(item => (item.areaId == placeDetailsJson.areaId && item.id == placeDetailsJson.id))[0];
+                covidDetail = data['covid'].filter(item =>item.areaId == placeDetailsJson.areaId)[0];
 
-            document.getElementById('place-title').innerHTML = placeDetail.name;
-			document.getElementById('time').innerHTML = placeDetail.hours;
-            document.getElementById('place-image').src= placeDetail.image;
-            document.getElementById('place-desc').innerHTML = placeDetail.description;
-            document.getElementById('modeified-date').innerHTML = covidDetail.modeifiedDate;
-            document.getElementById('covid-cases').innerHTML = covidDetail.covidcases;
-            document.getElementById('covid-recovered').innerHTML = covidDetail.RecoveredCases;
-            document.getElementById('covid-severity').innerHTML = covidDetail.covidseverity;
-            document.getElementById('place-review').innerHTML = placeDetail.review_text;
-
+                document.getElementById('place-title').innerHTML = placeDetail.name;
+                document.getElementById('time').innerHTML = placeDetail.hours;
+                document.getElementById('place-image').src= placeDetail.image;
+                document.getElementById('place-desc').innerHTML = placeDetail.description;
+                document.getElementById('modeified-date').innerHTML = covidDetail.modeifiedDate;
+                document.getElementById('covid-cases').innerHTML = covidDetail.covidcases;
+                document.getElementById('covid-recovered').innerHTML = covidDetail.RecoveredCases;
+                document.getElementById('covid-severity').innerHTML = covidDetail.covidseverity;
+                document.getElementById('place-review').innerHTML = placeDetail.review_text;
+             }
         })        
         .catch((error) => {
             console.log('promise error', error);
