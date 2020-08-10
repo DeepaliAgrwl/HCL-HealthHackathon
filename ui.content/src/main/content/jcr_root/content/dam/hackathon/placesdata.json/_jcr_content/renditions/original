@@ -1,0 +1,106 @@
+{"resturant":[
+{"id":"16774318","name":"Dominoz","rating":"4","hours":"11am to 11pm","description":"we delivery fresh baked pizza with complete safety","image":"https://b.zmtcdn.com/data/pictures/4/384/e517226402b301c86bd1421187712e26.jpg?output-format=webp","city":"Noida","cityCode":"ND","area":"Sector 15","areaId":"1", "review_text": "The best latte I've ever had. It tasted a little sweet" , "category":"resturant"},
+
+{"id":"16774319","name":"Paradise Biriyani","rating":"3","hours":"11am to 11pm","description":"we delivery the best biriyani with auroma and species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Bellandur","areaId":"2", "review_text": "The best latte I've ever had. It tasted a little sweet" , "category":"resturant"},
+
+{"id":"16774320","name":"Meghana Food Grand","rating":"4","hours":"11am to 11pm","description":"Delivering the The food with rich auroma and taste","image":"https://www.paradisefoodcourt.in/images/logo1.png","city":"Banglore","cityCode":"BLR","area":"Marathalli","areaId":"3", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"},
+
+{"id":"16774321","name":"Kritunga Restaurant","rating":"3","hours":"11am to 11pm","description":"we delivery the biriyani with Rich Taste and Great Auroma ad species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Whitefield","areaId":"5", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"},
+
+{"id":"16774322","name":"Moritz restaurant","rating":"3","hours":"11am to 11pm","description":"The place where the food and restaurant quality is great.","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Whitefield","areaId":"2", "review_text": "The best Food I've ever had. It tasted a little sweet", "category":"resturant"},
+
+{"id":"16774323","name":"Bawarchii Biriyani","rating":"4","hours":"11am to 11pm","description":"we delivery the best biriyani with auroma and species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Marathalli","areaId":"2", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"}
+],
+
+"shopping-malls": [
+    {
+      "id": "16774324",
+      "name": "pheonix mall",
+      "rating": "3",
+      "hours": "11am to 10pm",
+      "image": "https://www.karnataka.com/wp-content/uploads/2014/02/xphoenix-city-mall-bangalore.jpg.pagespeed.ic.caYWexl5hq.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Banglore",
+      "cityCode": "BLR",
+      "area": "marathali",
+      "areaId": "3",
+      "review_text": "Good Place to buy all the formal clothes",
+      "category": "shopping-malls"
+    },
+    {
+      "id": "16774330",
+      "name": "DLF Mall",
+      "rating": "5",
+      "hours": "11am to 10pm",
+      "image": "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/mallofindia_660_050319081441.jpg",
+      "description": "Best rated mall in terms of safety from COVID",
+      "city": "Noida",
+      "cityCode": "ND",
+      "area": "sector 18",
+      "areaId": "4",
+      "review_text": "Quality of the goods is very high",
+      "category": "shopping-malls"
+    },
+    {
+      "id": "16774361",
+      "name": "GIP Mall",
+      "rating": "4",
+      "hours": "11am to 10pm",
+      "image": "https://i.ytimg.com/vi/xj4biXmmQJ0/maxresdefault.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Noida",
+      "cityCode": "ND",
+      "area": "sector 18",
+      "areaId": "4",
+      "review_text": "Quality of the goods is very high with great discounts",
+      "category": "shopping-malls"
+    },
+    {
+      "id": "16774362",
+      "name": "Logix City Center Mall",
+      "rating": "3",
+      "hours": "11am to 10pm",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/cc/1c/ce/20161204-114917-hdr-largejpg.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Noida",
+      "cityCode": "ND",
+      "area": "sector 32",
+      "areaId": "3",
+      "review_text": "Good Place near Metro Stationi",
+      "category": "shopping-malls"
+    },
+    {
+      "id": "16774363",
+      "name": "Inorbit mall",
+      "rating": "4",
+      "hours": "11am to 10pm",
+      "image": "https://www.karnataka.com/wp-content/uploads/2014/03/Royal-Meenakshi-Mall-bangalore.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Banglore",
+      "cityCode": "BLR",
+      "area": "whitefield",
+      "areaId": "3",
+      "review_text": "Good Place to buy all the casual clothes",
+      "category": "shopping-malls"
+    },
+    {
+      "id": "16774364",
+      "name": "Bangalore Central Mall",
+      "rating": "5",
+      "hours": "11am to 10pm",
+      "image": "https://www.karnataka.com/wp-content/uploads/2013/12/xgaruda-mall.jpg.pagespeed.ic.qPsfeelYwT.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Banglore",
+      "cityCode": "BLR",
+      "area": "Ashok Nagar",
+      "areaId": "3",
+      "review_text": "Good Place to buy clothes and eating",
+      "category": "shopping-malls"
+    }
+  ],
+
+    "covid":[{"areaId":"1","covidcases":"100","covidseverity":"HIGH","RecoveredCases":"10", "modeifiedDate":"10 Aug, 2020"},
+             {"areaId":"2","covidcases":"10","covidseverity":"LOW","RecoveredCases":"6", "modeifiedDate":"6 Aug, 2020"},
+             {"areaId":"3","covidcases":"30","covidseverity":"MODERATE","RecoveredCases":"10" , "modeifiedDate":"8 Aug, 2020"},
+             {"areaId":"4","covidcases":"200","covidseverity":"HIGH","RecoveredCases":"20" ,"modeifiedDate":"9 Aug, 2020"}
+	]}

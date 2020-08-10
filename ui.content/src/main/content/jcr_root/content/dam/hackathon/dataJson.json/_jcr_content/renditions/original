@@ -1,0 +1,59 @@
+{
+ "resturant" :[
+	{
+    "name" : "Dominoz",
+    "rating" : "4", 
+    "description" : "we delivery fresh baked pizza with complete safety",
+    "image" : "https://d.zmtcdn.com/data/pictures/chains/8/16774318/a54deb9e4dbb79dd7c8091b30c642077_featured_v2.png", 
+    "city" : "Noida", 
+	"cityCode":"ND",
+    "area" : "Sector 15",
+	"placeId" : "100",
+    "areaId" : "1"
+    }, 
+    {
+    
+    "name" : "Karavali", 
+    "rating" : "5", 
+    "description" : "we delivery fresh baked pizza with complete safety",
+    "image" : "https://d.zmtcdn.com/data/pictures/chains/8/16774318/a54deb9e4dbb79dd7c8091b30c642077_featured_v2.png", 
+    "city" : "Banglore", 
+	"cityCode":"BLR",
+    "area" : "balendoor", 
+	"placeId" : "101",
+    "areaId" : "2"
+    }
+
+ 
+
+    ],
+	"shopping-malls" :[{
+    
+		"name" : "pheonix mall", 
+		"rating" : "3", 
+		"image" : "url", 
+		"description" : "we follow all the guidelines issue by goverment of India",
+		"city" : "Banglore",
+		"cityCode":"BLR",
+		"area" : "marathali",
+		"placeId" : "102",
+		"areaId" : "3"
+		}, 
+		{		
+		"name" : "DLF Mall", 
+		"rating" : "2.5", 
+		"image" : "url", 
+		"description" : "Best rated mall in terms of safety from COVID",
+		"city" : "Noida",
+		"cityCode":"ND",
+		"area" : "sector 18",
+		"placeId" : "103",
+		 "areaId" : "4"
+		}
+	]
+}
+
+ 
+
+ 
+
