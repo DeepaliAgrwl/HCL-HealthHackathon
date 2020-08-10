@@ -4,7 +4,7 @@ $(document).ready(function () {
     let selectedCity = localStorage.getItem('selectCityId');
     let searchFilter = localStorage.getItem('serachFilter');
 
-	let url = '/bin/hackathon/dataJson';
+	let url = '/bin/hackathon/placeslist';
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if(this.readyState == 4 && this.status == 200 ) {
