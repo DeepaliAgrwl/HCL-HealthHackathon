@@ -30,7 +30,7 @@ const searchResultElem = function(searchDataJson,selectedCity)
     let placeRatingMapping = [];
 	let target = document.querySelector(".searchResults");
     let searchListElem = null;
-		if(selectedCity !== "undefined")
+		if(selectedCity !== "none")
         {
             searchListElem = searchDataJson.map((item,index) =>{
                         const ratingOrderIdMap = {};
@@ -110,7 +110,7 @@ const searchByNameResultElem = function(searchDataJson,searchString,selectedCity
     let searchStringJson = JSON.parse(searchString);
 	let target = document.querySelector(".searchResults");
     let searchListElem = null;
-		if(selectedCity !== "undefined")
+		if(selectedCity !== "none")
         {
 
              Object.keys(searchDataJson).map((objectKeys) => {

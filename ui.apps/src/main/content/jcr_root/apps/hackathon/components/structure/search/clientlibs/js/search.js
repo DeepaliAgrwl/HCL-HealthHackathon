@@ -48,6 +48,7 @@ const onSearchString = function (event) {
 const searchByKeywords = function () {
 
     //let searchFilter = localStorage.getItem('serachFilter');
+    let selectedCityId = $('#city').val();
     let searchFilter = $('.searchFilter').val();
 	localStorage.setItem('serachFilter',searchFilter);
 	const searchString =  $('#searchString').val();
