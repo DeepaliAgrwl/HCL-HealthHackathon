@@ -14,7 +14,10 @@
     limitations under the License.
 */-->
 <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-     data-sly-call="${clientlib.css @ categories='hackathon.base'}"/>
+<sly data-sly-call="${clientlib.css @ categories='hackathon.base'}"/>
+<sly data-sly-call="${clientlib.all @ categories='hackathon.dependencies'}"/>
+</sly>
+<sly data-sly-include="/apps/hackathon/components/structure/page/favicons.html"></sly>
 
 <!--/* Include Context Hub */-->
 <sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
