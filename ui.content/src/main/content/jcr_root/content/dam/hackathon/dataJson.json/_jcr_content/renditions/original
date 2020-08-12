@@ -113,7 +113,63 @@
          "areaId":"4",
          "review_text":"Quality of the goods is very high",
          "category":"shopping-malls"
-      }
+      },
+      {
+      "id": "16774361",
+      "name": "GIP Mall",
+      "rating": "4",
+      "hours": "11am to 10pm",
+      "image": "https://i.ytimg.com/vi/xj4biXmmQJ0/maxresdefault.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Noida",
+      "cityCode": "ND",
+      "area": "sector 18",
+      "areaId": "4",
+      "review_text": "Quality of the goods is very high with great discounts",
+      "category": "shopping-malls"
+    },
+    {
+      "id": "16774362",
+      "name": "Logix City Center Mall",
+      "rating": "3",
+      "hours": "11am to 10pm",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/cc/1c/ce/20161204-114917-hdr-largejpg.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Noida",
+      "cityCode": "ND",
+      "area": "sector 32",
+      "areaId": "3",
+      "review_text": "Good Place near Metro Stationi",
+      "category": "shopping-malls"
+    },
+    {
+      "id": "16774363",
+      "name": "Inorbit mall",
+      "rating": "4",
+      "hours": "11am to 10pm",
+      "image": "https://www.karnataka.com/wp-content/uploads/2014/03/Royal-Meenakshi-Mall-bangalore.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Banglore",
+      "cityCode": "BLR",
+      "area": "whitefield",
+      "areaId": "3",
+      "review_text": "Good Place to buy all the casual clothes",
+      "category": "shopping-malls"
+    },
+    {
+      "id": "16774364",
+      "name": "Bangalore Central Mall",
+      "rating": "5",
+      "hours": "11am to 10pm",
+      "image": "https://www.karnataka.com/wp-content/uploads/2013/12/xgaruda-mall.jpg.pagespeed.ic.qPsfeelYwT.jpg",
+      "description": "we follow all the guidelines issue by goverment of India",
+      "city": "Banglore",
+      "cityCode": "BLR",
+      "area": "Ashok Nagar",
+      "areaId": "3",
+      "review_text": "Good Place to buy clothes and eating",
+      "category": "shopping-malls"
+    }
    ],
    "markets":[
       {
