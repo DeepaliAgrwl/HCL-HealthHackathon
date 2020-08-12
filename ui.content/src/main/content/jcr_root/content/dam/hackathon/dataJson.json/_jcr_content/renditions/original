@@ -1,25 +1,234 @@
-{"resturant":[
-	{"id":"16774318","name":"Dominoz","rating":"4","hours":"11am to 11pm","description":"we delivery fresh baked pizza with complete safety","image":"https://b.zmtcdn.com/data/pictures/4/384/e517226402b301c86bd1421187712e26.jpg?output-format=webp","city":"Noida","cityCode":"ND","area":"Sector 15","areaId":"1", "review_text": "The best latte I've ever had. It tasted a little sweet" , "category":"resturant"},
-
-{"id":"16774319","name":"Paradise Biriyani","rating":"3","hours":"11am to 11pm","description":"we delivery the best biriyani with auroma and species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Bellandur","areaId":"2", "review_text": "The best latte I've ever had. It tasted a little sweet" , "category":"resturant"},
-
-{"id":"16774320","name":"Meghana Food Grand","rating":"4","hours":"11am to 11pm","description":"Delivering the The food with rich auroma and taste","image":"https://www.paradisefoodcourt.in/images/logo1.png","city":"Banglore","cityCode":"BLR","area":"Marathalli","areaId":"3", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"},
-
-{"id":"16774321","name":"Kritunga Restaurant","rating":"3","hours":"11am to 11pm","description":"we delivery the biriyani with Rich Taste and Great Auroma ad species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Whitefield","areaId":"5", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"},
-
-{"id":"16774322","name":"Moritz restaurant","rating":"3","hours":"11am to 11pm","description":"The place where the food and restaurant quality is great.","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Whitefield","areaId":"2", "review_text": "The best Food I've ever had. It tasted a little sweet", "category":"resturant"},
-
-{"id":"16774323","name":"Bawarchii Biriyani","rating":"4","hours":"11am to 11pm","description":"we delivery the best biriyani with auroma and species","image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp","city":"Banglore","cityCode":"BLR","area":"Marathalli","areaId":"2", "review_text": "The best latte I've ever had. It tasted a little sweet", "category":"resturant"}
-],
-
-"shopping-malls":[
-{"id":"16774324","name":"pheonix mall","rating":"3","hours":"11am to 10pm","image":"https://www.hcltech.com/sites/default/files/styles/large/public/images/guideline_based1.png","description":"we follow all the guidelines issue by goverment of India","city":"Banglore","cityCode":"BLR","area":"marathali","areaId":"3", "review_text": "Good Place to buy all the formal clothes", "category":"shopping-malls"},
-
-{"id":"16774330","name":"DLF Mall","rating":"3","hours":"11am to 10pm","image":"https://www.hcltech.com/sites/default/files/styles/large/public/images/guideline_based1.png","description":"Best rated mall in terms of safety from COVID","city":"Noida","cityCode":"ND","area":"sector 18","areaId":"4","review_text": "Quality of the goods is very high" , "category":"shopping-malls"}
-],
-
-"covid":[{"areaId":"1","covidcases":"100","covidseverity":"HIGH","RecoveredCases":"10", "modeifiedDate":"10 Aug, 2020"},
-	{"areaId":"2","covidcases":"10","covidseverity":"LOW","RecoveredCases":"6", "modeifiedDate":"6 Aug, 2020"},
-	{"areaId":"3","covidcases":"30","covidseverity":"MODERATE","RecoveredCases":"10" , "modeifiedDate":"8 Aug, 2020"},
-	{"areaId":"4","covidcases":"200","covidseverity":"HIGH","RecoveredCases":"20" ,"modeifiedDate":"9 Aug, 2020"}
-	]}
+{
+   "resturant":[
+      {
+         "id":"16774318",
+         "name":"Dominoz",
+         "rating":"4",
+         "hours":"11am to 11pm",
+         "description":"we delivery fresh baked pizza with complete safety",
+         "image":"https://b.zmtcdn.com/data/pictures/4/384/e517226402b301c86bd1421187712e26.jpg?output-format=webp",
+         "city":"Noida",
+         "cityCode":"ND",
+         "area":"Sector 15",
+         "areaId":"1",
+         "review_text":"The best latte I've ever had. It tasted a little sweet",
+         "category":"resturant"
+      },
+      {
+         "id":"16774319",
+         "name":"Paradise Biriyani",
+         "rating":"3",
+         "hours":"11am to 11pm",
+         "description":"we delivery the best biriyani with auroma and species",
+         "image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp",
+         "city":"Banglore",
+         "cityCode":"BLR",
+         "area":"Bellandur",
+         "areaId":"2",
+         "review_text":"The best latte I've ever had. It tasted a little sweet",
+         "category":"resturant"
+      },
+      {
+         "id":"16774320",
+         "name":"Meghana Food Grand",
+         "rating":"4",
+         "hours":"11am to 11pm",
+         "description":"Delivering the The food with rich auroma and taste",
+         "image":"https://www.paradisefoodcourt.in/images/logo1.png",
+         "city":"Banglore",
+         "cityCode":"BLR",
+         "area":"Marathalli",
+         "areaId":"3",
+         "review_text":"The best latte I've ever had. It tasted a little sweet",
+         "category":"resturant"
+      },
+      {
+         "id":"16774321",
+         "name":"Kritunga Restaurant",
+         "rating":"3",
+         "hours":"11am to 11pm",
+         "description":"we delivery the biriyani with Rich Taste and Great Auroma ad species",
+         "image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp",
+         "city":"Banglore",
+         "cityCode":"BLR",
+         "area":"Whitefield",
+         "areaId":"5",
+         "review_text":"The best latte I've ever had. It tasted a little sweet",
+         "category":"resturant"
+      },
+      {
+         "id":"16774322",
+         "name":"Moritz restaurant",
+         "rating":"3",
+         "hours":"11am to 11pm",
+         "description":"The place where the food and restaurant quality is great.",
+         "image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp",
+         "city":"Banglore",
+         "cityCode":"BLR",
+         "area":"Whitefield",
+         "areaId":"2",
+         "review_text":"The best Food I've ever had. It tasted a little sweet",
+         "category":"resturant"
+      },
+      {
+         "id":"16774323",
+         "name":"Bawarchii Biriyani",
+         "rating":"4",
+         "hours":"11am to 11pm",
+         "description":"we delivery the best biriyani with auroma and species",
+         "image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp",
+         "city":"Banglore",
+         "cityCode":"BLR",
+         "area":"Marathalli",
+         "areaId":"2",
+         "review_text":"The best latte I've ever had. It tasted a little sweet",
+         "category":"resturant"
+      }
+   ],
+   "shopping-malls":[
+      {
+         "id":"16774324",
+         "name":"pheonix mall",
+         "rating":"3",
+         "hours":"11am to 10pm",
+         "image":"https://www.hcltech.com/sites/default/files/styles/large/public/images/guideline_based1.png",
+         "description":"we follow all the guidelines issue by goverment of India",
+         "city":"Banglore",
+         "cityCode":"BLR",
+         "area":"marathali",
+         "areaId":"3",
+         "review_text":"Good Place to buy all the formal clothes",
+         "category":"shopping-malls"
+      },
+      {
+         "id":"16774330",
+         "name":"DLF Mall",
+         "rating":"3",
+         "hours":"11am to 10pm",
+         "image":"https://www.hcltech.com/sites/default/files/styles/large/public/images/guideline_based1.png",
+         "description":"Best rated mall in terms of safety from COVID",
+         "city":"Noida",
+         "cityCode":"ND",
+         "area":"sector 18",
+         "areaId":"4",
+         "review_text":"Quality of the goods is very high",
+         "category":"shopping-malls"
+      }
+   ],
+   "markets":[
+      {
+         "id":"16774371",
+         "name":"Atta Market",
+         "rating":"3",
+         "hours":"11am to 10pm",
+         "image":"https://new-img.patrika.com/upload/2018/07/06/noida_3060767_835x547-m.jpg",
+         "description":"we follow all the guidelines issue by goverment of India",
+         "city":"Noida",
+         "cityCode":"ND",
+         "area":"sector 18",
+         "areaId":"3",
+         "review_text":"Good Place to buy",
+         "category":"markets"
+      },
+      {
+         "id":"16774372",
+         "name":"Tibetan Market",
+         "rating":"3",
+         "hours":"11am to 10pm",
+         "image":"https://static.toiimg.com/img/67501395/Master.jpg",
+         "description":"we follow all the guidelines issue by goverment of India",
+         "city":"Noida",
+         "cityCode":"ND",
+         "area":"sector 33",
+         "areaId":"3",
+         "review_text":"Good Place to buy winter clothes",
+         "category":"markets"
+      },
+      {
+         "id":"16774373",
+         "name":"Brahmaputra Market",
+         "rating":"3",
+         "hours":"11am to 10pm",
+         "image":"https://bramaputramarket.files.wordpress.com/2017/05/fullsizerender-7.jpg?w=676",
+         "description":"we follow all the guidelines issue by goverment of India",
+         "city":"Noida",
+         "cityCode":"ND",
+         "area":"sector 25",
+         "areaId":"3",
+         "review_text":"Good Place to eat",
+         "category":"markets"
+      },
+      {
+         "id":"16774374",
+         "name":"MG Road Market",
+         "rating":"3",
+         "hours":"11am to 10pm",
+         "image":"https://static-blog.treebo.com/wp-content/uploads/2018/06/M.G-Road-is-a-popular-shopping-street-in-Bangalore.jpg",
+         "description":"we follow all the guidelines issue by goverment of India",
+         "city":"Bangalore",
+         "cityCode":"BLR",
+         "area":"MG Road",
+         "areaId":"3",
+         "review_text":"Good Place to buy",
+         "category":"markets"
+      },
+      {
+         "id":"16774375",
+         "name":"Electronics Market",
+         "rating":"3",
+         "hours":"11am to 10pm",
+         "image":"https://static-blog.treebo.com/wp-content/uploads/2018/06/S-P-Road.jpg",
+         "description":"we follow all the guidelines issue by goverment of India",
+         "city":"Bangalore",
+         "cityCode":"BLR",
+         "area":"SP Road",
+         "areaId":"3",
+         "review_text":"Good Place for Electronics Product",
+         "category":"markets"
+      },
+      {
+         "id":"16774376",
+         "name":"Gandhi Market",
+         "rating":"3",
+         "hours":"11am to 10pm",
+         "image":"https://static-blog.treebo.com/wp-content/uploads/2018/06/Gandhi-Bazaar.jpg",
+         "description":"we follow all the guidelines issue by goverment of India",
+         "city":"Bangalore",
+         "cityCode":"BLR",
+         "area":"Basavanagudi",
+         "areaId":"3",
+         "review_text":"Good Place to buy Spices",
+         "category":"markets"
+      }
+   ],
+   "covid":[
+      {
+         "areaId":"1",
+         "covidcases":"100",
+         "covidseverity":"HIGH",
+         "RecoveredCases":"10",
+         "modeifiedDate":"10 Aug, 2020"
+      },
+      {
+         "areaId":"2",
+         "covidcases":"10",
+         "covidseverity":"LOW",
+         "RecoveredCases":"6",
+         "modeifiedDate":"6 Aug, 2020"
+      },
+      {
+         "areaId":"3",
+         "covidcases":"30",
+         "covidseverity":"MODERATE",
+         "RecoveredCases":"10",
+         "modeifiedDate":"8 Aug, 2020"
+      },
+      {
+         "areaId":"4",
+         "covidcases":"200",
+         "covidseverity":"HIGH",
+         "RecoveredCases":"20",
+         "modeifiedDate":"9 Aug, 2020"
+      }
+   ]
+}
