@@ -13,11 +13,18 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2U87MpLQOIdn4M0qh9YfCyjTTrjATqI8" async defer></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
 <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-<sly data-sly-call="${clientlib.css @ categories='hackathon.base'}"/>
-<sly data-sly-call="${clientlib.all @ categories='hackathon.dependencies'}"/>
+    <sly data-sly-call="${clientlib.css @ categories='hackathon.base'}"/>
+    <sly data-sly-call="${clientlib.all @ categories='hackathon.dependencies'}"/>
 </sly>
 <sly data-sly-include="/apps/hackathon/components/structure/page/favicons.html"></sly>
+<!--/* Include Context Hub */-->
+<!--/*<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>*/-->
+
 
 <!--/* Include Context Hub */-->
 <sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+
