@@ -167,7 +167,7 @@ const searchByNameResultElem = function(searchDataJson,searchString,selectedCity
 
 function redirectToSearchDetail(id, category, areaId)
 {
-    let serachDetails = { "id":id, "category":category, "areaId":areaId};
+    let serachDetails = { "id":id, "category":category, "areaId":areaId,"address":"Bellandur"};
     document.cookie = "placeDetails = " + JSON.stringify(serachDetails) + "; path=/";
     window.location.href = "http://localhost:4502/content/hackathon/us/en/placedetails.html?wcmmode=disabled";
 }
