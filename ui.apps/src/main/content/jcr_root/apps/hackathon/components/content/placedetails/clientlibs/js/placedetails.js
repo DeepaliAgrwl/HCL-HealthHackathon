@@ -1,6 +1,6 @@
 /*<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2U87MpLQOIdn4M0qh9YfCyjTTrjATqI8" defer></script>*/
-
- /*const getUserCookie = function (cname) {
+let covidseverity;
+ const getUserCookie = function (cname) {
 	let name = cname + "=";
 	let decodedCookie = decodeURIComponent(document.cookie);
 	let ca = decodedCookie.split(';');
@@ -11,8 +11,7 @@
 		}
 	}
 	return "";
-	}	*/
-
+	}
 
 
 let latitude = "";
@@ -76,8 +75,15 @@ function initMap(latitude,longitude) {
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 const message= JSON.parse(this.responseText)['containmentZoneNames']
+                covidseverity = JSON.parse(this.responseText)['numberOfNearbyZones']
+				if(covidseverity <3)
+                	document.getElementById('covid-severity').innerHTML = "LOW";
+                else if(covidseverity >5 && covidseverity <=8)
+                	document.getElementById('covid-severity').innerHTML ="MODERATE";
+				else if(covidseverity >8)
+                	document.getElementById('covid-severity').innerHTML = "HIGH";
 				console.log(message)
-                for(i=0;i<message.length;i++){
+                for(let i=0;i<message.length;i++){
 					 $.ajax({
        url : "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyC2U87MpLQOIdn4M0qh9YfCyjTTrjATqI8&address="+message[i].trim()+"&sensor=false",
        method: "POST",
@@ -99,12 +105,20 @@ function initMap(latitude,longitude) {
 
             var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
 			var marker = new google.maps.Marker({
-    position: city,
-    map: map,
-    icon: image,
-    title: 'Hello World!'
-  });
+                position: city,
+                map: map,
+                icon: image,
 
+                color:'RED',
+                title: message[i]
+              });
+
+             var marker = new google.maps.MarkerLabel({
+                position: city,
+                map: map,
+                color:'RED',
+
+              });
        }
     	});
 
@@ -143,7 +157,7 @@ function initMap(latitude,longitude) {
                     position: city,
                     map: map
                  });*/
-      } 
+      }
 
 
 
@@ -175,60 +189,19 @@ if(latitude!= "" && longitude != ""){
 }
 
 
-  /*  const getUserCookie = function (cname) {
-	let name = cname + "=";
-	let decodedCookie = decodeURIComponent(document.cookie);
-	let ca = decodedCookie.split(';');
-	for (let i = 0; i < ca.length; i++) {
-		let c = ca[i].trim();
-		if (c.indexOf(name) === 0) {
-			return c.substring(name.length, c.length);
-		}
-	}
-	return "";
-	}	
 
-    const placeDeatils = getUserCookie("placeDetails");
-    let placeDetailsJson;
-        if(placeDeatils)
-        	placeDetailsJson = JSON.parse(placeDeatils);
+
+                document.getElementById('place-title').innerHTML = placeDetailsJson.name;
+                document.getElementById('time').innerHTML = placeDetailsJson.time;
+                document.getElementById('place-image').src= placeDetailsJson.image;
+                document.getElementById('place-desc').innerHTML = placeDetailsJson.description;
+				//document.getElementById('place-review').innerHTML = placeDetail.review_text;
+                document.getElementById('modeified-date').innerHTML = placeDetailsJson.modeifiedDate;
+                document.getElementById('covid-cases').innerHTML = placeDetailsJson.covidcases;
+                document.getElementById('covid-recovered').innerHTML = placeDetailsJson.RecoveredCases;
 
 
 
-    let placeDetail = {};
-    let covidDetail = {};
-    const othrParm = {
-        headers: { "content-type": "application/json; charset=UTF-8", 'Accept': 'application/json'},
+				document.getElementById("rating" + placeDetailsJson.rating * 2).checked = true;
 
 
-        method: "GET"
-    }
-
-
-    fetch('https://data.geoiq.io/dataapis/v1.0/covid/nearbyzones')
-        .then(
-            (response) => { return response.json(); },
-            (rejected) => {
-                console.log(rejected);
-            })
-        .then(data => {
-            if(placeDetailsJson) {
-                placeDetail = data[placeDetailsJson.category].filter(item => (item.areaId == placeDetailsJson.areaId && item.id == placeDetailsJson.id))[0];
-                covidDetail = data['covid'].filter(item =>item.areaId == placeDetailsJson.areaId)[0];
-
-                document.getElementById('place-title').innerHTML = placeDetail.name;
-                document.getElementById('time').innerHTML = placeDetail.hours;
-                document.getElementById('place-image').src= placeDetail.image;
-                document.getElementById('place-desc').innerHTML = placeDetail.description;
-                document.getElementById('modeified-date').innerHTML = covidDetail.modeifiedDate;
-                document.getElementById('covid-cases').innerHTML = covidDetail.covidcases;
-                document.getElementById('covid-recovered').innerHTML = covidDetail.RecoveredCases;
-                document.getElementById('covid-severity').innerHTML = covidDetail.covidseverity;
-                document.getElementById('place-review').innerHTML = placeDetail.review_text;
-             }
-        })        
-        .catch((error) => {
-            console.log('promise error', error);
-      });
-
-});*/

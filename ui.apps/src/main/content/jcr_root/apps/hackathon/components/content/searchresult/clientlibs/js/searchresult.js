@@ -1,4 +1,28 @@
 let searchDataJson;
+let sorting = false;
+let covidDetail = {};
+function sortResult(){
+
+    let searchString = localStorage.getItem('serachString');
+    let selectedCity = localStorage.getItem('selectCityId');
+    let searchFilter = localStorage.getItem('serachFilter');
+
+    sorting = !sorting;
+    let sortedItems = null;
+    searchDataJson[searchString].sort(function(a, b) {
+     sorting ? sortedItems = Number(a.rating) - Number(b.rating) : sortedItems = Number(b.rating) - Number(a.rating);
+
+		return sortedItems;
+     })
+
+                if(searchFilter == "category" || searchFilter==null){
+                            searchResultElem(searchDataJson[searchString],selectedCity);
+                }
+	            else
+                {
+					searchByNameResultElem(searchDataJson,searchString,selectedCity);
+                }
+}
 $(document).ready(function () {
     let searchString = localStorage.getItem('serachString');
     let selectedCity = localStorage.getItem('selectCityId');
@@ -47,7 +71,7 @@ const searchResultElem = function(searchDataJson,selectedCity)
             }).join('');
 
 		}
-		else{	
+		else{
 
 			searchListElem = searchDataJson.map((item,index) =>{
                         const ratingOrderIdMap = {};
@@ -75,9 +99,9 @@ const renderSearchItem= function(item,index)
 {
 
 	return(
-            `<div class ='cmp-result-main-container' onClick="redirectToSearchDetail('${item.id}','${item.category}', '${item.areaId}')">
+            `<div class ='cmp-result-main-container' onClick="redirectToSearchDetail('${item.areaId}', '${item.address}', '${item.image}', '${item.rating}', '${item.hours}', '${item.description}', '${item.name}')">
 					<div class="cmp-result-left-container" >
-							<img class ='cmp-img' src= ${item.image}></img>                            
+							<img class ='cmp-img' src= ${item.image}></img>
         					<div class="rate">
         						<input type="checkbox" id="rating10-${item.id}" name="rating10" value="5"/> <label for="rating10-${item.id}" title="5"></label>
                                  <input type="checkbox" id="rating9-${item.id}" name="rating9" value="4.5"/><label class="half" for="rating9-${item.id}" title="4.5"></label>
@@ -126,7 +150,7 @@ const searchByNameResultElem = function(searchDataJson,searchString,selectedCity
 
                             	const searchHTML = renderSearchItem(item,index);
 								searchListElem.push(searchHTML);
-    
+
                             }
             			})
 					}
@@ -135,7 +159,7 @@ const searchByNameResultElem = function(searchDataJson,searchString,selectedCity
 
 
 		}
-		else{	
+		else{
 			Object.keys(searchDataJson).map((objectKeys) => {
                    if(objectKeys !== "covid"){
             			searchDataJson[objectKeys].map((item,index) =>{
@@ -161,13 +185,19 @@ const searchByNameResultElem = function(searchDataJson,searchString,selectedCity
 
                 placeRatingMapping.forEach((item) =>{
 					document.getElementById("rating" + item.rating * 2 +"-"+item.id).checked = true;
-    			})	
+    			})
         	}
 }
 
-function redirectToSearchDetail(id, category, areaId)
+function redirectToSearchDetail(areaId, address, image, rating, hours,description, name)
 {
-    let serachDetails = { "id":id, "category":category, "areaId":areaId,"address":"Bellandur"};
+
+    covidDetail = searchDataJson['covid'].filter(item =>item.areaId == areaId)[0];
+    console.log(covidDetail);
+    let serachDetails = {  "areaId":areaId,"address":address,"image": image, "rating":rating ,"time":hours,
+                         "description":description, "name":name,
+                         "covidcases":covidDetail.covidcases, "covidseverity": covidDetail.covidseverity
+                         ,"RecoveredCases":covidDetail.RecoveredCases, "modeifiedDate":covidDetail.modeifiedDate};
     document.cookie = "placeDetails = " + JSON.stringify(serachDetails) + "; path=/";
     window.location.href = "http://localhost:4502/content/hackathon/us/en/placedetails.html?wcmmode=disabled";
 }

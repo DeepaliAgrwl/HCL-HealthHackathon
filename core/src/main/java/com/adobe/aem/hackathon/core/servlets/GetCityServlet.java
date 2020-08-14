@@ -39,10 +39,8 @@ public class GetCityServlet extends SlingSafeMethodsServlet {
 		LOG.debug("inside CountryState Servlet  doGET method");
 		try {
 
-			//JSONArray cityList = new JSONArray();
 			JSONObject dataList = new JSONObject();
 			Resource original;
-			//JSONArray response = new JSONArray();
 
 				ResourceResolver resourceResolver = request.getResourceResolver();
 				Resource resource = resourceResolver.getResource("/content/dam/hackathon/city.json");

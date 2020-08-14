@@ -1,6 +1,7 @@
 #map-canvas {
                height: 400px;
-               width: 100%;
+               width: 50%;
+    			div[title] { color:'red' ; }
        }
 
 /* Rating */
@@ -9,7 +10,7 @@
  display: inline-block;
  border: 0;
  pointer-events: none;
- 
+
  /* Click + hover color */
  input:checked ~ label /* color current and previous stars on checked */
   { color: #2979be; } /* color previous stars on hover */
@@ -17,7 +18,7 @@
  /* Hover highlights */
  input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
  input:checked ~ label:hover ~ label /* highlight previous selected stars for new rating */
-  /* highlight previous selected stars */ { color: #2979be; } 
+  /* highlight previous selected stars */ { color: #2979be; }
 }
 .rating-detail > input {
  display: none;
@@ -58,14 +59,14 @@ body{
 .place-details-cmp{
     & > div{
         display: flex;
-        .product-image-rating{          
+        .product-image-rating{
                 width: 500px;
-                height: 500px;
+
                 box-shadow: 0 0 10px rgba(0,0,0,0.6);
                 img{
                     width: 100%;
-                    height: 100%;
-                }            
+    				height: 50%;
+                }
         }
         .place-info{
             margin-left: 40px;
@@ -86,4 +87,17 @@ body{
 }
 .bold{
     font-weight: 600;
+}
+
+.container{
+	display: flex;
+}
+
+.place-details-cmp{
+	width: 60%;
+}
+
+.place-detail-container{
+	display: flex;
+    flex-direction: column;
 }

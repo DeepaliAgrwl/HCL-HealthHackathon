@@ -49,8 +49,18 @@
                                                         jcr:primaryType="nt:unstructured"
                                                         text="Sort"
                                                         value="sort"/>
+                                                    <categoryCarouselRedirect
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="CategoryCarouselRedirect"
+                                                        value="categoryCarouselRedirect"/>
                                                 </items>
                                             </variations>
+                                            <category
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Category belong to this button"
+                                                fieldLabel="Category"
+                                                name="./category"/>
                                         </items>
                                     </column>
                                 </items>

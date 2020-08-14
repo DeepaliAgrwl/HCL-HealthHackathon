@@ -13,14 +13,16 @@
 .cmp-result-right-container{
 
     width: 70%;
-    justify-content: center;
     display: flex;
     flex-direction: column;
+        margin-left: 10px;
 }
 
 .cmp-img{
     width: 100%;
     height: auto;
+    max-width: 80%;
+    max-height: 130px;
 }
 
 
@@ -32,7 +34,7 @@
  display: inline-block;
  border: 0;
  pointer-events: none;
- 
+
  /* Click + hover color */
  input:checked ~ label, /* color current and previous stars on checked */
   { color: #2979be; } /* color previous stars on hover */
@@ -40,7 +42,7 @@
  /* Hover highlights */
  input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
  input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
-  /* highlight previous selected stars */ { color: #2979be; } 
+  /* highlight previous selected stars */ { color: #2979be; }
 }
 .rate > input {
  display: none;
@@ -64,4 +66,23 @@
  content: "\f089 "; /* half star no outline */
  position: absolute;
  padding-right: 0;
+}
+
+
+.search-result-title{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.search-result-title button
+{
+	width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: #2979be;
+    color: white;
+    border: 0px;
+    font-size: 14px;
 }

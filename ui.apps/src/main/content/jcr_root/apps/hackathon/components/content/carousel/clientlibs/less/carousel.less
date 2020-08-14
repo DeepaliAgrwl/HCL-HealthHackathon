@@ -4,11 +4,11 @@
         margin: 0 5%;
         width: 90%;
         overflow: hidden;
-        @media only screen and (max-width: 768px) {       
-            width: 80%;      
-            margin: 0 10%;           
+        @media only screen and (max-width: 768px) {
+            width: 80%;
+            margin: 0 10%;
             }
-    .cmp-carousel__content{  
+    .cmp-carousel__content{
         transition: 1s ease all;
         float: left;
         display: flex;
@@ -25,8 +25,8 @@
             // transform: scale(1.2,1.2);
             // position: relative;
             // z-index: 1;
-            // @media only screen and (max-width: 768px) {       
-            //     transform: scale(1,1);                  
+            // @media only screen and (max-width: 768px) {
+            //     transform: scale(1,1);
             //     }
             // }
             }
@@ -43,28 +43,28 @@
                     border: 0;
                     font-size: 48px;
                     z-index: 1;
-                    background: transparent;    
+                    background: transparent;
                     .cmp-carousel__action-text {
                         display: none; }
                 }
-                .cmp-carousel__action--previous ,  .cmp-carousel__action--next {    
+                .cmp-carousel__action--previous ,  .cmp-carousel__action--next {
                     &:after {
                         opacity: 1;
-                    } 
+                    }
                     &:hover {
                         &:after {
                           opacity: 1;
                         }
-                      }            
+                      }
                     &.over{
-                        pointer-events: none;                         
+                        pointer-events: none;
                         opacity: 0.2;
                     }
                 }
                 .cmp-carousel__action--pause , .cmp-carousel__action--play{
                     display: none;
                 }
-            }    
+            }
         .cmp-carousel__indicators{
             display: none;
         }
@@ -191,4 +191,7 @@
     }
   }
 
- 
+ .cmp-carousel
+{
+    margin-top: 30px;
+}

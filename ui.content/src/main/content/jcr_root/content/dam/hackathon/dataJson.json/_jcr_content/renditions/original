@@ -2,14 +2,14 @@
    "resturant":[
       {
          "id":"16774318",
-         "name":"Dominoz",
+         "name":"Domino's",
          "rating":"4",
          "hours":"11am to 11pm",
          "description":"we delivery fresh baked pizza with complete safety",
          "image":"https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/10/domino-s-pizza-1571307449.jpg",
          "city":"Noida",
          "cityCode":"ND",
-         "area":"Sector 15",
+         "address":"Sector 15, Noida",
          "areaId":"1",
          "review_text":"The best latte I've ever had. It tasted a little sweet",
          "category":"resturant"
@@ -23,7 +23,7 @@
          "image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp",
          "city":"Banglore",
          "cityCode":"BLR",
-         "area":"Bellandur",
+         "address":"Bellandur",
          "areaId":"2",
          "review_text":"The best latte I've ever had. It tasted a little sweet",
          "category":"resturant"
@@ -37,7 +37,7 @@
          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQeyuukF10mM0A2qpuBaeaLb2-IhiY-a4X1Fw&usqp=CAU",
          "city":"Banglore",
          "cityCode":"BLR",
-         "area":"Marathalli",
+         "address":"Marathalli",
          "areaId":"3",
          "review_text":"The best latte I've ever had. It tasted a little sweet",
          "category":"resturant"
@@ -51,7 +51,7 @@
          "image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp",
          "city":"Banglore",
          "cityCode":"BLR",
-         "area":"Whitefield",
+         "address":"Whitefield",
          "areaId":"5",
          "review_text":"The best latte I've ever had. It tasted a little sweet",
          "category":"resturant"
@@ -65,7 +65,7 @@
          "image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp",
          "city":"Banglore",
          "cityCode":"BLR",
-         "area":"Whitefield",
+         "address":"Whitefield",
          "areaId":"2",
          "review_text":"The best Food I've ever had. It tasted a little sweet",
          "category":"resturant"
@@ -79,7 +79,7 @@
          "image":"https://b.zmtcdn.com/data/pictures/chains/0/59680/e8dbc0aacca39bcddec86225759d6b6e.jpg?output-format=webp",
          "city":"Banglore",
          "cityCode":"BLR",
-         "area":"Marathalli",
+         "address":"Marathalli",
          "areaId":"2",
          "review_text":"The best latte I've ever had. It tasted a little sweet",
          "category":"resturant"
@@ -95,7 +95,7 @@
          "description":"we follow all the guidelines issue by goverment of India",
          "city":"Banglore",
          "cityCode":"BLR",
-         "area":"marathali",
+         "address":"marathali",
          "areaId":"3",
          "review_text":"Good Place to buy all the formal clothes",
          "category":"shopping-malls"
@@ -109,7 +109,7 @@
          "description":"Best rated mall in terms of safety from COVID",
          "city":"Noida",
          "cityCode":"ND",
-         "area":"sector 18",
+         "address":"sector 18, Noida",
          "areaId":"4",
          "review_text":"Quality of the goods is very high",
          "category":"shopping-malls"
@@ -123,7 +123,7 @@
       "description": "we follow all the guidelines issue by goverment of India",
       "city": "Noida",
       "cityCode": "ND",
-      "area": "sector 18",
+      "address": "sector 18, Noida",
       "areaId": "4",
       "review_text": "Quality of the goods is very high with great discounts",
       "category": "shopping-malls"
@@ -137,7 +137,7 @@
       "description": "we follow all the guidelines issue by goverment of India",
       "city": "Noida",
       "cityCode": "ND",
-      "area": "sector 32",
+      "address": "sector 32, noida",
       "areaId": "3",
       "review_text": "Good Place near Metro Stationi",
       "category": "shopping-malls"
@@ -151,7 +151,7 @@
       "description": "we follow all the guidelines issue by goverment of India",
       "city": "Banglore",
       "cityCode": "BLR",
-      "area": "whitefield",
+      "address": "whitefield",
       "areaId": "3",
       "review_text": "Good Place to buy all the casual clothes",
       "category": "shopping-malls"
@@ -165,7 +165,7 @@
       "description": "we follow all the guidelines issue by goverment of India",
       "city": "Banglore",
       "cityCode": "BLR",
-      "area": "Ashok Nagar",
+      "address": "Ashok Nagar, Bangalore",
       "areaId": "3",
       "review_text": "Good Place to buy clothes and eating",
       "category": "shopping-malls"
@@ -181,7 +181,7 @@
          "description":"we follow all the guidelines issue by goverment of India",
          "city":"Noida",
          "cityCode":"ND",
-         "area":"sector 18",
+         "address":"sector 18, Noida",
          "areaId":"3",
          "review_text":"Good Place to buy",
          "category":"markets"
@@ -195,7 +195,7 @@
          "description":"we follow all the guidelines issue by goverment of India",
          "city":"Noida",
          "cityCode":"ND",
-         "area":"sector 33",
+         "address":"sector 33, Noida",
          "areaId":"3",
          "review_text":"Good Place to buy winter clothes",
          "category":"markets"
@@ -209,7 +209,7 @@
          "description":"we follow all the guidelines issue by goverment of India",
          "city":"Noida",
          "cityCode":"ND",
-         "area":"sector 25",
+         "address":"sector 25, Noida",
          "areaId":"3",
          "review_text":"Good Place to eat",
          "category":"markets"
@@ -223,7 +223,7 @@
          "description":"we follow all the guidelines issue by goverment of India",
          "city":"Bangalore",
          "cityCode":"BLR",
-         "area":"MG Road",
+         "address":"MG Road, Bangalore",
          "areaId":"3",
          "review_text":"Good Place to buy",
          "category":"markets"
@@ -237,7 +237,7 @@
          "description":"we follow all the guidelines issue by goverment of India",
          "city":"Bangalore",
          "cityCode":"BLR",
-         "area":"SP Road",
+         "address":"SP Road, Bangalore",
          "areaId":"3",
          "review_text":"Good Place for Electronics Product",
          "category":"markets"
@@ -251,7 +251,7 @@
          "description":"we follow all the guidelines issue by goverment of India",
          "city":"Bangalore",
          "cityCode":"BLR",
-         "area":"Basavanagudi",
+         "address":"Basavanagudi, Bangalore",
          "areaId":"3",
          "review_text":"Good Place to buy Spices",
          "category":"markets"
@@ -281,6 +281,13 @@
       },
       {
          "areaId":"4",
+         "covidcases":"200",
+         "covidseverity":"HIGH",
+         "RecoveredCases":"20",
+         "modeifiedDate":"9 Aug, 2020"
+      },
+       {
+         "areaId":"5",
          "covidcases":"200",
          "covidseverity":"HIGH",
          "RecoveredCases":"20",
