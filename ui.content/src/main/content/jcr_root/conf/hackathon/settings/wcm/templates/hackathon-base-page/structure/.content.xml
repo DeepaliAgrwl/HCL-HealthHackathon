@@ -3,7 +3,7 @@
           jcr:primaryType="cq:Page">
     <jcr:content
             cq:deviceGroups="[/etc/mobile/groups/responsive]"
-            cq:lastModified="{Date}2020-08-10T14:54:28.861+05:30"
+            cq:lastModified="{Date}2020-08-14T10:55:16.263+05:30"
             cq:lastModifiedBy="admin"
             cq:template="/conf/hackathon/settings/wcm/templates/hackathon-base-page"
             jcr:primaryType="cq:PageContent"
@@ -18,14 +18,16 @@
                         cq:styleIds="[1596961851892]"
                         jcr:created="{Date}2020-08-09T13:05:24.045+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-08-09T13:06:59.967+05:30"
+                        jcr:lastModified="{Date}2020-08-13T17:22:27.548+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="hackathon/components/content/image"
-                        altValueFromDAM="true"
+                        alt="logo"
+                        altValueFromDAM="false"
                         displayPopupTitle="true"
                         fileReference="/content/dam/hackathon/images/logo.png"
                         isDecorative="false"
+                        linkURL="/content/hackathon/us/en/home"
                         titleValueFromDAM="true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
@@ -48,7 +50,7 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="4"
+                                offset="6"
                                 width="2"/>
                     </cq:responsive>
                 </button>
@@ -56,12 +58,13 @@
                         cq:styleIds="[1596959978077]"
                         jcr:created="{Date}2020-08-09T13:05:42.492+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-08-09T14:16:28.118+05:30"
+                        jcr:lastModified="{Date}2020-08-14T10:54:13.337+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="People Infected"
+                        jcr:title="Stress Buster"
                         sling:resourceType="hackathon/components/content/button"
-                        link="/content/hackathon/us/en/guidelines">
+                        link="/content/hackathon/us/en/stress-buster"
+                        variation="cmp-button">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                                 jcr:primaryType="nt:unstructured"
@@ -69,23 +72,6 @@
                                 width="2"/>
                     </cq:responsive>
                 </button_2104934400>
-                <button_593944537
-                        cq:styleIds="[1596959978077]"
-                        jcr:created="{Date}2020-08-09T13:05:47.831+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-08-09T14:16:42.219+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="People Recovered"
-                        sling:resourceType="hackathon/components/content/button"
-                        link="/content/hackathon/us/en/guidelines">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                    </cq:responsive>
-                </button_593944537>
             </header>
             <responsivegrid
                     jcr:primaryType="nt:unstructured"
@@ -106,8 +92,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="3"
-                                width="5"/>
+                                offset="0"
+                                width="12"/>
                     </cq:responsive>
                 </text>
             </footer>

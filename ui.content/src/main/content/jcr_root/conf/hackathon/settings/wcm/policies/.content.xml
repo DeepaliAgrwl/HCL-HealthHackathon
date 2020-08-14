@@ -93,7 +93,7 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_xfm>
                     <policy_3105190178954161
-                            jcr:lastModified="{Date}2020-08-09T14:10:12.152+05:30"
+                            jcr:lastModified="{Date}2020-08-14T10:46:29.593+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="button policy"
@@ -108,6 +108,11 @@
                                             cq:styleClasses="link-primary"
                                             cq:styleId="1596959978077"
                                             cq:styleLabel="Link button"
+                                            jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                            cq:styleClasses="btn-primary"
+                                            cq:styleId="1597382164618"
+                                            cq:styleLabel="primary Button"
                                             jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
