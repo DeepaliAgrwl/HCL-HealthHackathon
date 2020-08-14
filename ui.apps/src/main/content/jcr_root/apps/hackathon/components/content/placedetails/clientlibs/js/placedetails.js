@@ -103,22 +103,17 @@ function initMap(latitude,longitude) {
               radius: 200
     });
 
-            var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
-			var marker = new google.maps.Marker({
-                position: city,
-                map: map,
-                icon: image,
+             var contents =  '<div style= "max-width:100 !important"><p style="color:red">Containmnet Zone  &#128543;</p>'+message[i]+'<div>';
 
-                color:'RED',
-                title: message[i]
-              });
+      var infowindow = new google.maps.InfoWindow({    
+    content: contents    
+  });
 
-             var marker = new google.maps.MarkerLabel({
-                position: city,
-                map: map,
-                color:'RED',
 
-              });
+         google.maps.event.addListener(cityCircle, 'click', function(ev){
+    infowindow.setPosition(cityCircle.getCenter());
+    infowindow.open(map);
+});	
        }
     	});
 
